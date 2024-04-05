@@ -1,0 +1,381 @@
+
+/* addpets.css */
+
+
+.pets-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align items */
+  }
+  
+  .pet {
+  
+    width: 300px; /* Set a fixed width for the pet card */
+    margin: 20px; /* Add margin between pet cards */
+    border: 1px solid #ccc; /* Add border for clarity */
+    border-radius: 18px; /* Add border radius for rounded corners */
+     /* Add box shadow for depth */
+     box-shadow: 4px 4px 5px #80669d83;
+  }
+  .pet-page{
+    margin-top: 100px;
+  }
+  .pet img {
+    width: 100%; /* Set the image width to 100% of its container */
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+ /* Add border radius only to top corners */
+    border-radius: 18px 18px 0 0; 
+    box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.052);
+    /* Add border radius only to top corners */   
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+  .pet h2 {
+    margin-top: 0;
+  }
+  
+  .pet p {
+    margin: 5px 0;
+  }
+  
+
+  
+  .delete,
+  .update {
+    padding: 8px 12px;
+    margin-right: 30px; 
+    margin-left: 30px;/* Add margin to create space between buttons */
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Container for buttons */
+  .button-container {
+    display: flex; /* Use flexbox to arrange buttons in a row */
+  }
+  
+  /* Optional: If you want to align the buttons to the center horizontally */
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  
+  .update {
+    background-color: #4169e1;
+  }
+  
+
+
+  .add-pet-btn {
+    position: absolute;
+    top: 26%;
+    left: 80%;  
+    border-radius: 12px;
+    background-color: transparent;
+    border: 2px solid #81679D;
+    color: #81679D;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    overflow: hidden;
+    
+   
+  }
+  
+  .add-pet-btn::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #81679D;
+    left: 0;
+    top: 0;
+    transition: width 0.5s ease; /* Only transition width property */
+    z-index: -1;
+      
+    }
+  
+  .add-pet-btn:hover::before {
+    width: 100%;
+  }
+  .add-pet-btn:hover {
+    color: white; /* Change text color on hover */
+  /* Change background color on hover */
+  
+  }
+  h1 {
+    margin-bottom: 50px;
+  }
+/* pets.css */
+.pets-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ 
+  .form {
+    width: 400px;
+    margin: 100px auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #81669d;
+    box-shadow: 4px 3px 3px 3px  #81679d9b;
+
+  }
+  
+  .form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="url"],
+  .form select {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form select {
+    appearance: none;
+  }
+  
+  .form input[type="text"]::placeholder,
+  .form input[type="url"]::placeholder,
+  .form select::placeholder {
+    color: #aaa;
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 10px;
+  
+   background-color: #80669d;
+   border-color: #fff;
+    color: #fff;
+   
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px #574270;
+  }
+  
+  .form button:hover {
+    background-color: #4a3760;
+    border-color:none;
+    border: none;
+    color: #fff;
+   
+  }
+  
+  .form button:focus {
+    outline: none;
+  }
+  
+  .form .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .form a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    
+  }
+  
+  .form a:hover {
+    text-decoration: underline;
+  }
+  
+
+ 
+    
+  
+
+  /* .pets {
+    display: flex;
+  }
+
+  .pets .pet {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: bisque;
+    max-width: 300px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 30px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.471);
+
+  } */
+
+  
+
+  .pets .pet button {
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .pets .pet .delete {
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242, 100, 100);
+  }
+
+  .pets .pet .update {
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+  }
+
+
+
+  /* addpets.css */
+
+/* Style the select element */
+select {
+    width: 250px;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+    appearance: none; /* Remove default appearance */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23333f4b' width='18px' height='18px'%3e%3cpath d='M7 10l5 5 5-5H7z'/%3e%3c/svg%3e"); /* Add custom arrow icon */
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: center;
+   
+  }
+  
+  /* Style the options within the select dropdown */
+  select option {
+
+  }
+  .select-category{
+    display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center;
+  margin-left: 30px; /* Adjust margin as needed */
+  
+}
+.select-category label{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+.select-category select{
+  width: 130px;
+  margin-top: 140px;
+  margin-left: 120px;
+  color: #000000;
+  text-align: center;
+  cursor: pointer;
+ 
+  background-color: transparent;
+  border: 2px solid #81679D;
+  border-radius: 12px;
+
+
+ 
+  
+  
+}
+.select-category select:hover{
+    
+    transition: width 0.3s ease, height 0.3s ease;
+    border-color: transparent;
+    border-color: none;
+    background-color: #80669d;
+    color: #fff;
+
+
+}
+  /* Style the select dropdown when focused */
+  select:focus {
+    outline: none;
+    border-color: #80669d;
+    box-shadow: 0 0 0 2px rgba(77, 144, 254, 0.2);
+  }
+  .hover-icon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .pet:hover .hover-icon {
+    display: block;
+  }
+  .adopt {
+    padding: 10px 98px;
+    border-radius: 0 0 18px 18px;
+    border: none;
+    background-color: #80669d;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    overflow: hidden;
+    position: relative; /* Add position relative for absolute positioning */
+    
+    /* Transition properties */
+    transition: color 0.5s, background-color 0.3s;
+  }
+  
+  .adopt::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    transition: left 0.5s ease-in-out;
+    z-index: -1; /* Ensure the pseudo-element is behind the text */
+  }
+  
+  .adopt:hover::before {
+    left: 0;
+  }
+  
+  .adopt:hover {
+    color: #80669d;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #81669dac;
+  }
+  
+  
+ 
+  
+  .pawEmoji {
+    
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 5px; /* Adjust as needed for spacing */
+
+  }
+  
+ 
+  
+  

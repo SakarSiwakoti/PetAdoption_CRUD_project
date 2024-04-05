@@ -1,0 +1,89 @@
+.footer {
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=37cbdd&c2=ffffff&gt=l&gd=dtr
+*/
+background: #81679D;
+background: linear-gradient(225deg, #81679D, #FFFFFF);
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 20%;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+  cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative; /* Add position relative for the pseudo-element */
+}
+
+.footer-section ul li a:hover {
+  text-decoration: none; 
+  color: #fff; 
+
+  /* Remove default underline on hover */
+}
+
+.footer-section ul li a:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust as needed */
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+}
+.footer-section ul li a:hover {
+  text-decoration: none;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-left: 48%;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  color: #333;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}

@@ -1,0 +1,161 @@
+
+.banner-img{
+    position: absolute;
+    top: 78%;
+    left: 28%;
+    box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.225);
+
+}
+.headings-home{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    color: #654b83;
+}
+
+.h1text{
+    position: absolute;
+   top: 122%;
+   left: 34%;
+   color: #6e548a;
+text-align: center;
+
+
+}
+
+
+.Home-content{
+    
+   padding-top: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 100px;
+   
+}
+.Home-Image1{
+    transform: scale(1.1);
+    flex-basis: 40%;
+    position: relative;
+    right: 10%;
+}
+
+    .Home-Image2{
+        transform: scale(1.1);
+        position: relative;
+        right: 10%;
+        margin-top: 150px;
+
+
+
+}
+
+.home-text{
+ 
+    flex-basis: 40%;
+    position: relative;
+    left: 10%;
+    font-size: larger;
+    max-width: 600px;
+ margin-bottom: 35%;
+
+    border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+ /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=81679d&c2=ffffff&gt=l&gd=dtr
+*/
+background: #81669d;
+background: linear-gradient(225deg, #81679D, #FFFFFF);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.192);
+   
+}
+.home-text h3{
+    color:#fff;
+}
+.home-text2 h3{
+    color: #fff;
+}
+
+.home-text2{
+ margin-right: 100px;
+    flex-basis: 40%;
+   position: relative;
+   right: 21%;
+    font-size: larger;
+    max-width: 600px;
+    margin-top: 48%;
+    border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+ /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=81679d&c2=ffffff&gt=l&gd=dtr
+*/
+background: #81679D;
+background: linear-gradient(225deg, #81679D, #FFFFFF);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.192);
+ 
+
+    
+
+}
+.home-text p{
+    padding-top:20px ;
+    margin-bottom: 5px;
+    
+   
+}
+.home-text2 p{
+    padding-top:20px ;
+    margin-bottom: 5px;
+    
+   
+}
+.Home-content img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.adopt-now-home{
+
+    position: absolute;
+    top: 58%;
+    left: 24%;  
+    background-color: transparent;
+    border: 2px solid #81679D;
+    color: #81679D;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    overflow: hidden;
+
+
+  }
+  
+  .adopt-now-home::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #81679D;
+    left: 0;
+    top: 0;
+    transition: width 0.5s ease; /* Only transition width property */
+    z-index: -1;
+  }
+  
+  .adopt-now-home:hover::before {
+    width: 100%;
+    
+  }
+  .adopt-now-home:hover {
+    color: white; /* Change text color on hover */
+/* Change background color on hover */
+  }

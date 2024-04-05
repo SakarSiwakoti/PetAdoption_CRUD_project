@@ -1,0 +1,139 @@
+/* Navbar.css */
+.NavbarItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-shadow: 0 5px 15px 0 #80669d;
+  width: 95%;
+  height: 80px;
+  border-radius: 13px;
+  background-color: #fff;
+  position: relative;
+  left: 50px;
+  margin-top: 15px;
+  
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar-logo {
+  padding-top: 50px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-links i {
+  padding-right: 10px;
+}
+
+.nav-links:hover {
+  background-color: #4c2f6b;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.active {
+  background-color: #80669d;
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+/* Welcome message styles */
+.welcome-message {
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+/* Button styles */
+.Button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Button:hover {
+  background-color: #0056b3;
+}
+
+.logout-btn{
+  background-color: #80669d; /*  */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.logout-btn:hover{
+  background-color: black;
+}
+ 
+
+.login-btn{
+  background-color: #fff; /*  */
+  color: #000000;
+ border: none;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 2px #80669d;
+  transition: background 0.5s ease;
+ 
+}
+.login-btn:hover{
+
+  background-color:#4c2f6b;
+  color: #fff;
+  box-shadow: none;
+  
+}
+
+
+.user-icon{
+  color: grey;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+.user-icon i {
+  cursor: pointer;
+  font-weight: bold;
+  color: #80669d;
+}
+.user-icon i:hover{
+  color: #47266c;
+  
+}

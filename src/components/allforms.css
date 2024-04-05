@@ -1,0 +1,91 @@
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+  
+  }
+  .form-card input::placeholder {
+    color: #999; /* Change color */
+    font-weight: bold;
+  }
+   .form-card textarea::placeholder {
+    color: #999; /* Change color */
+    font-weight: bold;
+  }
+  .center-text {
+    text-align: center;
+  }
+  
+  .form-card {
+    margin-top: 89px;
+    background: #81679D;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+    margin-bottom: 25px;
+  }
+  
+  textarea[name='address'] {
+    height: 80px; /* Adjust the height of the address field */
+  }
+  
+  textarea[name='message'] {
+    height: 200px; /* Adjust the height of the message field */
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+  
+   background-color: #80669d;
+   border-color: #fff;
+    color: #fff;
+   font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px #574270;
+  }
+  
+  .submit-btn:hover {
+    background-color: #4a3760;
+    border-color:none;
+    border: none;
+    color: #fff;
+  }
+  
+  .submit-btn:focus {
+    outline: none;
+  } 
+  /* Contact.css */
+  
+  .container h1{
+    margin-top: 50px;
+  
+  }
+  .container p{
+    position: absolute;
+    top: 17%;
+    right: 17%;
+  }
+  
+  
+  
+  
+  

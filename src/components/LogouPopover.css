@@ -1,0 +1,25 @@
+/* LogoutPopover.css */
+
+.logout-popover {
+    position: absolute;
+    top: 80px; /* Adjust the distance from the username icon */
+    right: 20px;
+    background-color: rgb(220, 219, 219);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    padding: 10px 40px;
+    z-index: 100;
+    
+  }
+  
+  .logout-option {
+    text-align: right;
+    cursor: pointer;
+    
+  }
+  
+  .logout-option:hover {
+    color: #f00;
+  }
+  

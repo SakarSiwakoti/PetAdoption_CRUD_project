@@ -1,0 +1,55 @@
+.signup-page {
+  padding: 35px 0 100px 55%;
+  background-image: url('../assets/signup2.webp'); 
+  /* Adjust the path based on the location of your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  width: 360px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  
+  /* Adjust form background opacity as needed */
+ 
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.408);
+}
+
+
+.input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Ensure input fields take up full width */
+}
+
+.passwordContainer {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.passwordContainer input {
+  padding-right: 40px; /* Adjust padding to accommodate the eye icon */
+}
+
+
+
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Add this CSS to your Signup.css file */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
